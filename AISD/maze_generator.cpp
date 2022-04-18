@@ -47,7 +47,7 @@ bool deadend(int x, int y, int **maze, int height, int width)
 }
 void visual(int **maze, int height, int width)
 {
-	ofstream fout("D:\\Codes\\C++\\AISD\\maze.txt");
+	ofstream fout("maze.txt");
 	for (int i = 0; i < height; i++)
 	{
 		for (int j = 0; j < width; j++)
